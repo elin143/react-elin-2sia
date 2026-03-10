@@ -20,7 +20,7 @@ export default function HelloWorld(){
             <UserCard
                 nama="Seonghyeon" 
 	            nim="24573"
-	            tanggal="2023/03/10"
+	            tanggal="2023/03/11"
                 />
             <UserCard {...propsUserCard}/>
         </div>
