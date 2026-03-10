@@ -1,0 +1,114 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Comic Sans MS','Trebuchet MS',sans-serif;
+    background: linear-gradient(135deg,#ffe4f1,#ffd6ec,#fff0f7);
+    color:#6b6b6b;
+    margin:0;
+    padding:20px;
+    overflow-x:hidden;
+    position:relative;
+}
+
+/* ✨ sparkle pastel lembut */
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+
+    background-image:
+    radial-gradient(#ffffff 2px,transparent 3px),
+    radial-gradient(#ffd6ec 2px,transparent 3px),
+    radial-gradient(#ffeaf5 2px,transparent 3px);
+
+    background-size:
+    140px 140px,
+    180px 180px,
+    120px 120px;
+
+    animation:sparkleFloat 35s linear infinite;
+    opacity:.5;
+}
+
+/* animasi sparkle pelan */
+@keyframes sparkleFloat{
+    from{transform:translateY(-20px)}
+    to{transform:translateY(20px)}
+}
+
+/* Container utama */
+.card{
+    max-width:600px;
+    margin:40px auto;
+    background:rgba(255,255,255,.9);
+    backdrop-filter:blur(10px);
+    padding:25px;
+    border-radius:22px;
+
+    border:2px solid #ffd6ec;
+
+    box-shadow:
+    0 8px 20px rgba(255,182,193,.25);
+
+    position:relative;
+}
+
+/* glow pink lembut */
+.card::before{
+    content:"";
+    position:absolute;
+    inset:-10px;
+    border-radius:25px;
+
+    background:linear-gradient(
+    45deg,
+    #ffd6ec,
+    #ffe4f1,
+    #fff0f7);
+
+    filter:blur(18px);
+    opacity:.35;
+    z-index:-1;
+}
+
+/* Header utama */
+h1{
+    color:#ff7eb6;
+    text-align:center;
+    font-weight:bold;
+
+    text-shadow:
+    0 0 6px #ffffff,
+    0 0 10px #ffd6ec;
+}
+
+/* Paragraf */
+p{
+    font-size:16px;
+    line-height:1.7;
+    color:#666;
+}
+
+/* Garis pemisah */
+hr{
+    border:none;
+    height:2px;
+
+    background:linear-gradient(
+    to right,
+    #ffd6ec,
+    #ffe4f1,
+    #ffd6ec);
+
+    margin:15px 0;
+    border-radius:10px;
+}
+
+/* Greeting */
+small{
+    display:block;
+    font-style:italic;
+    text-align:center;
+    color:#c27aa0;
+    margin-top:8px;
+}
