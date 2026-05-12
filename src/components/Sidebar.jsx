@@ -47,11 +47,21 @@ const Sidebar = () => {
 
         <li>
           <NavLink
-          onClick={() => setActive("detail")}
-          to="/customers"
+          onClick={() => setActive("Customer")}
+          to="/customer"
           className={menuClass}
         >
           <FaFileAlt /> Customer
+          </NavLink>
+        </li>
+
+        <li>
+          <NavLink
+          onClick={() => setActive("Products")}
+          to="/Products"
+          className={menuClass}
+        >
+          <FaFileAlt /> Products
           </NavLink>
         </li>
 

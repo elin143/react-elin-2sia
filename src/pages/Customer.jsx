@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import PageHeader from "../components/PageHeader";
 import customer from "../data/customer.json";
 
@@ -57,7 +58,11 @@ export default function Customer(){
           className="text-center border-b border-[#FDF2F8] last:border-none hover:bg-[#FDE2E4]/20 transition-colors"
         >
           <td className="p-4 text-[#8B8BAE] font-medium text-sm">#{c.customerId}</td>
-          <td className="p-4 text-[#5C5B7F] font-bold text-sm">{c.customerName}</td>
+          <td className="p-4 text-[#5C5B7F] font-bold text-sm">
+           <Link to={`/customer/${c.customerId}`} className="text-emerald-400 hover:text-emerald-500">
+        {c.customerName}
+    </Link> 
+          </td>
           <td className="p-4 text-[#9393B5] text-sm">{c.email}</td>
           <td className="p-4 text-[#9393B5] text-sm">{c.phone}</td>
           <td className="p-4">

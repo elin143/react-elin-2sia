@@ -4,11 +4,15 @@ import React, { Suspense } from "react";
 import "./assets/tailwind.css";
 import { Routes, Route } from "react-router-dom";
 import Loading from "./components/Loading";
+import Products from "./pages/Products";
+import CustomerDetail from "./pages/CustomerDetail";
 
 
 function App() {
   const Dashboard = React.lazy(() => import("./pages/Dashboard"))
   const Orders = React.lazy(() => import("./pages/Orders"))
+  const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
+  const CustomerDetail = React.lazy(() => import("./pages/CustomerDetail"))
   const Customer = React.lazy(() => import("./pages/Customer"))
   const NotFound = React.lazy(() => import("./pages/NotFound"))
   const Login = React.lazy(() => import("./pages/auth/Login"))
@@ -30,6 +34,9 @@ function App() {
               <Route path="/error-400" element={<Error400 />} />
               <Route path="/error-401" element={<Error401 />} />
               <Route path="/error-403" element={<Error403 />} />
+              <Route path="Products" element={<Products />} />
+              <Route path="/products/:id" element={<ProductDetail />} /> 
+              <Route path="/customer/:id" element={<CustomerDetail />} /> 
               </Route>
 
              <Route element={<AuthLayout/>}>

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 15.99,
+    "stock": 120,
+    "brand": "LogiTech",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 45.5,
+    "stock": 80,
+    "brand": "KeyPro",
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "category": "Electronics",
+    "price": 32.99,
+    "stock": 65,
+    "brand": "SoundMax",
+    "rating": 4.4
+  },
+  {
+    "id": 4,
+    "name": "USB-C Charger",
+    "category": "Accessories",
+    "price": 12.0,
+    "stock": 200,
+    "brand": "ChargeIt",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "name": "Smartphone Stand",
+    "category": "Accessories",
+    "price": 8.75,
+    "stock": 140,
+    "brand": "HoldTech",
+    "rating": 4.2
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "category": "Audio",
+    "price": 28.99,
+    "stock": 70,
+    "brand": "BoomBox",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "name": "Laptop Backpack",
+    "category": "Fashion",
+    "price": 39.99,
+    "stock": 90,
+    "brand": "UrbanBag",
+    "rating": 4.5
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "category": "Wearables",
+    "price": 55.0,
+    "stock": 50,
+    "brand": "FitPulse",
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "name": "Running Shoes",
+    "category": "Sports",
+    "price": 60.0,
+    "stock": 110,
+    "brand": "RunFast",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "name": "Yoga Mat",
+    "category": "Sports",
+    "price": 20.5,
+    "stock": 130,
+    "brand": "FlexFit",
+    "rating": 4.3
+  },
+  {
+    "id": 11,
+    "name": "Water Bottle",
+    "category": "Lifestyle",
+    "price": 10.99,
+    "stock": 300,
+    "brand": "HydroMax",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Desk Lamp",
+    "category": "Home",
+    "price": 18.75,
+    "stock": 75,
+    "brand": "BrightLite",
+    "rating": 4.1
+  },
+  {
+    "id": 13,
+    "name": "Office Chair",
+    "category": "Furniture",
+    "price": 120.0,
+    "stock": 40,
+    "brand": "ComfortSeat",
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "name": "Coffee Maker",
+    "category": "Kitchen",
+    "price": 65.99,
+    "stock": 55,
+    "brand": "CafePro",
+    "rating": 4.5
+  },
+  {
+    "id": 15,
+    "name": "Air Fryer",
+    "category": "Kitchen",
+    "price": 89.99,
+    "stock": 45,
+    "brand": "CookEase",
+    "rating": 4.7
+  },
+  {
+    "id": 16,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 140.0,
+    "stock": 30,
+    "brand": "CleanHome",
+    "rating": 4.6
+  },
+  {
+    "id": 17,
+    "name": "LED Monitor",
+    "category": "Electronics",
+    "price": 150.0,
+    "stock": 35,
+    "brand": "ViewMax",
+    "rating": 4.5
+  },
+  {
+    "id": 18,
+    "name": "Portable SSD",
+    "category": "Storage",
+    "price": 99.99,
+    "stock": 60,
+    "brand": "DataSafe",
+    "rating": 4.8
+  },
+  {
+    "id": 19,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 35.5,
+    "stock": 95,
+    "brand": "CamVision",
+    "rating": 4.2
+  },
+  {
+    "id": 20,
+    "name": "Tripod Stand",
+    "category": "Photography",
+    "price": 22.0,
+    "stock": 85,
+    "brand": "PhotoGear",
+    "rating": 4.3
+  },
+  {
+    "id": 21,
+    "name": "Digital Watch",
+    "category": "Accessories",
+    "price": 48.99,
+    "stock": 100,
+    "brand": "TimeX",
+    "rating": 4.4
+  },
+  {
+    "id": 22,
+    "name": "Sunglasses",
+    "category": "Fashion",
+    "price": 25.99,
+    "stock": 160,
+    "brand": "SunnyStyle",
+    "rating": 4.1
+  },
+  {
+    "id": 23,
+    "name": "Electric Toothbrush",
+    "category": "Health",
+    "price": 42.0,
+    "stock": 70,
+    "brand": "SmileCare",
+    "rating": 4.6
+  },
+  {
+    "id": 24,
+    "name": "Hair Dryer",
+    "category": "Beauty",
+    "price": 30.0,
+    "stock": 90,
+    "brand": "GlowAir",
+    "rating": 4.3
+  },
+  {
+    "id": 25,
+    "name": "Notebook A5",
+    "category": "Stationery",
+    "price": 5.5,
+    "stock": 250,
+    "brand": "WriteNow",
+    "rating": 4.0
+  },
+  {
+    "id": 26,
+    "name": "Ballpoint Pen Set",
+    "category": "Stationery",
+    "price": 7.99,
+    "stock": 300,
+    "brand": "InkFlow",
+    "rating": 4.2
+  },
+  {
+    "id": 27,
+    "name": "Tablet 10 Inch",
+    "category": "Electronics",
+    "price": 210.0,
+    "stock": 25,
+    "brand": "TabWorld",
+    "rating": 4.5
+  },
+  {
+    "id": 28,
+    "name": "Smart TV 43 Inch",
+    "category": "Electronics",
+    "price": 320.0,
+    "stock": 20,
+    "brand": "VisionPlus",
+    "rating": 4.7
+  },
+  {
+    "id": 29,
+    "name": "Mini Projector",
+    "category": "Electronics",
+    "price": 180.0,
+    "stock": 18,
+    "brand": "ProjectBeam",
+    "rating": 4.4
+  },
+  {
+    "id": 30,
+    "name": "Power Bank 20000mAh",
+    "category": "Accessories",
+    "price": 27.99,
+    "stock": 150,
+    "brand": "EnergyGo",
+    "rating": 4.6
+  }
+]
