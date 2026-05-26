@@ -1,5 +1,8 @@
 import PageHeader from "../components/PageHeader";
 import { useLocation } from "react-router-dom";
+import {Button} from "@/components/ui/button";
+import Card from "../components/Card";
+import Badge from "../components/Badge";
 
 export default function FiturXyz() {
     const location = useLocation();
@@ -94,6 +97,17 @@ export default function FiturXyz() {
                 subtitle="Monitor berbagai kasus dan kontroversi yang pernah menjadi perhatian publik di industri K-Pop."
             />
 
+            <Button variant = "outline"  > Batal </Button>
+            <Button variant = "ghost"  > Batal </Button>
+            <Button variant = "destructive"  > Batal </Button>
+
+            <Card>
+                                <h2 className="text-xl font-bold">Judul Card</h2>
+                                <p className="text-gray-600">Ini adalah isi dari card.</p>
+                                <Badge type="success">Success</Badge>
+                                <Button type="success">Simpan</Button>
+                            </Card>
+
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-pink-100">
                 {/* Header Card */}
                 <div className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-purple-600 p-6">
@@ -113,6 +127,10 @@ export default function FiturXyz() {
                         </button>
                     </div>
                 </div>
+
+                
+
+                
 
                 {/* Table */}
                 <div className="overflow-x-auto">
