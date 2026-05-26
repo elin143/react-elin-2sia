@@ -75,6 +75,16 @@ const Sidebar = () => {
           </NavLink>
         </li>
 
+         <li>
+          <NavLink
+          onClick={() => setActive("FiturXyz")}
+          to="/FiturXyz"
+          className={menuClass}
+        >
+          <FaFileAlt /> FiturXyz
+          </NavLink>
+        </li>
+
       </ul>
       <div className="mt-8">
         <p className="text-gray-400 text-xs mb-2">ERROR PAGES</p>
