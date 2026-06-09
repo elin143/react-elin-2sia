@@ -85,6 +85,16 @@ const Sidebar = () => {
           </NavLink>
         </li>
 
+        <li>
+          <NavLink
+          onClick={() => setActive("Note")}
+          to="/Note"
+          className={menuClass}
+        >
+          <FaFileAlt /> Note
+          </NavLink>
+        </li>
+
       </ul>
       <div className="mt-8">
         <p className="text-gray-400 text-xs mb-2">ERROR PAGES</p>
